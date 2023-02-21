@@ -1,5 +1,4 @@
-#include "world.cpp"
-
+#include "world.hpp"
 
 int main(){
     World w;
