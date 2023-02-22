@@ -51,7 +51,7 @@ void World::printSide(int x , int y){
 void World::printmap(){
     for(int i = 0; i<11;i++){
         for(int j = 0;j<11;j++){
-            printSide(i,j);
+            printSide(j,i);
         }
         cout << endl;
     }

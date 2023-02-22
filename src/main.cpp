@@ -10,10 +10,10 @@ int main(){
         cin >> input;
         if(input == "w"){
                 world.playerMove('w');
+                world.getPlayer().printShipCoor();
         }else{
             cout << "Movement invalid" << endl;
         }
-        
     }
     
     return 0;
