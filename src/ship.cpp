@@ -1,5 +1,6 @@
 #include "ship.hpp"
-
+#include <iostream>
+using namespace std;
 Ship::Ship(){
     this->x = 0;
     this->y = 0;
@@ -19,37 +20,16 @@ Ship::Ship(int health, int x, int y, int damage, int range){
 bool Ship::isAlive(){
     return alive;
 }
-bool Ship::move(char direction){
-    switch(direction){
-        case 'w':
-            if(y-1<0){
-                return false;
-            }
-            y-=1;
-            break;
-        case 'a':
-            if(x-1<0){
-                return false;
-            }
-            x-=1;
-            break;
-        case 's':
-            if(x+1>10){
-                return false;
-            }
-            x+=1;
-            break;
-        case 'd':
-            if(y+1>10){
-                return false;
-            }
-            y+=1;
-            break;
-        default:
-            return false;
-    }
-    return true;
-}
+
 bool Ship::sameCoordinate(int xl, int yl){
     return (x==xl) && (y==yl);
 }
+void Ship::printShipCoor(){
+    cout << "(" << x << "," << y << ")" << endl;
+}
+int Ship::setCoor(int a , int b){
+    this->x=a;
+    this->y = b;
+}
+int Ship::getX(){return x;}
+int Ship::getY(){return y;}

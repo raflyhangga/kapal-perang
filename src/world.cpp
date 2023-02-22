@@ -10,7 +10,6 @@ World::World(){
         }
     }
     //creating player
-    map[5][5] = 1;
     PlayerShip player();
     
 
@@ -19,6 +18,10 @@ World::World(){
         EnemyShip temp;
         enemies[i] = temp;
     }
+}
+
+PlayerShip World::getPlayer(){
+    return this->player;
 }
 void World::printSide(int x , int y){
     HANDLE h = GetStdHandle(STD_OUTPUT_HANDLE);
@@ -42,6 +45,7 @@ void World::printSide(int x , int y){
         SetConsoleTextAttribute(h,0x9);
         cout << " # ";
     }
+    SetConsoleTextAttribute(h,0x7);
 }
 
 void World::printmap(){
@@ -51,4 +55,34 @@ void World::printmap(){
         }
         cout << endl;
     }
+}
+void World::playerMove(char direction){
+    switch(direction){
+        case 'w':
+            if(player.getY()<0){
+                return;
+            }else{
+                player.setCoor(player.getX(),player.getY()-1);
+                break;
+            }
+            
+        case 'a':
+            if(player.getX()-1<0){
+                return;
+            }
+            break;
+        case 's':
+            if(player.getX()+1>10){
+                return;
+            }
+            break;
+        case 'd':
+            if(player.getY()+1>10){
+                return;
+            }
+            break;
+        default:
+            return;
+    }
+    return;
 }

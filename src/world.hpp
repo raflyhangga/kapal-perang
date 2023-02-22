@@ -9,18 +9,20 @@ class World{
 public:
 /*ctor*/
     World();
+    PlayerShip getPlayer();
     void printmap();
     void doPlayerAction();
     void botDecision();
     void printSide(int, int);
+    void playerMove(char);
 private:
     /*List of enemy bot*/
     EnemyShip* enemies;
     int currentMaxEnemies;
     /*Player bot*/
     PlayerShip player;
-    /*mapSize: x*x need odd*/
-    int x;
+    /*mapSize: n*n need odd*/
+    int n;
     /*Matrix of map*/
     int **map;
     /*Kill Count*/

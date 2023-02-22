@@ -19,9 +19,10 @@ class Ship{
     bool isAlive();
     /*Setter*/
     int setHealth();
+    int getX();
+    int getY();
     int setCoor(int, int);
-    bool move(char);
-
+    void printShipCoor();
 
 
     bool sameCoordinate(int, int);
