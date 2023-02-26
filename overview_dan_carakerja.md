@@ -4,11 +4,17 @@
 
 Program ini dimulai dengan diperlihatkan peta arena perang, beserta dengan posisi musuh dan player. Peta berukuran 11 x 11, menempatkan musuh secara random, dan menempatkan pemain di tengah – tengah arena.
 
-Setelah itu pemain diminta mengetikkan keywords “w, a, s, d” untuk menggerakkan kapal (w untuk maju, s untuk mundur, a untuk ke kiri, dan d untuk ke kanan) dengna cara mengetik keywords lalu menakan enter, dan player diminta mengetikkan "shoot" untuk menembak, "enemy" untuk meliaht health musuh dan posisi musuh, exit untuk keluar.
+![Screenshot (309)](https://user-images.githubusercontent.com/123804483/221390036-856544a3-bbcd-4fba-9c37-7661ac551b63.png)
+
+![Screenshot (310)](https://user-images.githubusercontent.com/123804483/221390040-d45c2317-55b1-4492-b147-4cd96913499a.png)
+
+Setelah itu pemain diminta mengetikkan keywords “w, a, s, d” untuk menggerakkan kapal (w untuk maju, s untuk mundur, a untuk ke kiri, dan d untuk ke kanan) dengna cara mengetik keywords lalu menakan enter, dan player diminta mengetikkan "shoot" untuk menembak, "enemy" untuk melihat health musuh dan posisi musuh, exit untuk keluar.
 
 Setiap kali kita bergerak maka musuh akan langsung otomatis menyerang kita, darah kita akan otomatis berkurang setiap bergerak, jika dan hanya jika kita berada pada dalam area jangkauan serangan musuh.
 
-Kita harus menyerang musuh sampai health musuh berkurang, setiap jumlah musuh yang mati akan disimpan, dan jika pemian mati maka akn ditampilakn total jumlah musuh yang sudah dikalahkan.
+![Screenshot (312)](https://user-images.githubusercontent.com/123804483/221390044-148d0969-0f5a-4cc4-acb7-084e7fe465b7.png)
+
+Kita harus menyerang musuh sampai health musuh berkurang, setiap jumlah musuh yang mati akan disimpan,dan jika semua musuh mati maka akn lanjut ke wave berikutnya dan jika pemain mati maka akn ditampilakn total jumlah musuh yang sudah dikalahkan.
 
 ## cara kerja program
 
