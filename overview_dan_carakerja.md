@@ -42,3 +42,9 @@ Dalam class ini terdapat method dan fungsi yang berkaitan dengan kapal pemain, d
 PlayerShip(): Constructor dengan nilai default health=500, damage=5, range=5, dan posisi kapal pada koordinat (0,0).
 isAlive(): Fungsi yang mengembalikan nilai boolean yang menyatakan apakah kapal pemain masih hidup atau tidak.
 Seluruh method yang diwarisi dari class Ship, seperti getX(), getY(), setCoor(), printShipCoor(), dan sameCoordinate().
+
+## peran tiap anggota
+1. Athif Nirwasito: mengubah bahasa dari pyhton ke C++, mmebuat program C++
+2. M.Daryl Putra A.K: membuat program dasar dengan python, membuat deskripsi cara kerja program, membuat dokumensati
+3. Tashdiqurridho: membuat dokumentasi
+4. Raden Rafly Hanggaraksa Budiarto: membuat program dasar dengan python, membuat program dengan C++
