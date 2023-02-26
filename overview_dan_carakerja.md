@@ -8,6 +8,9 @@ Program ini dimulai dengan diperlihatkan peta arena perang, beserta dengan posis
 
 ![Screenshot (310)](https://user-images.githubusercontent.com/123804483/221390040-d45c2317-55b1-4492-b147-4cd96913499a.png)
 
+![Screenshot (314)](https://user-images.githubusercontent.com/123804483/221390147-3f4efc46-4455-4ef4-a47f-02f1714d9f54.png)
+
+
 Setelah itu pemain diminta mengetikkan keywords “w, a, s, d” untuk menggerakkan kapal (w untuk maju, s untuk mundur, a untuk ke kiri, dan d untuk ke kanan) dengna cara mengetik keywords lalu menakan enter, dan player diminta mengetikkan "shoot" untuk menembak, "enemy" untuk melihat health musuh dan posisi musuh, exit untuk keluar.
 
 Setiap kali kita bergerak maka musuh akan langsung otomatis menyerang kita, darah kita akan otomatis berkurang setiap bergerak, jika dan hanya jika kita berada pada dalam area jangkauan serangan musuh.
